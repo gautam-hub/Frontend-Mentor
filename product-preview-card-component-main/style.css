@@ -1,0 +1,91 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover{
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-family: serif;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #358058;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    margin: 10px 0px 0px 25px;
+}
+
+.btn:hover {
+    background: #096125;
+    text-decoration: none;
+}
+
+.child1 {
+    height: 400px;
+    width: 248px;
+    display: inline-block;
+}
+
+.child2 {
+    padding-top: 1px;
+    height: 370px;
+    width: 230px;
+    margin: 15px;
+}
+
+.dis-price {
+    display: inline;
+    color: hsl(158, 36%, 37%);
+    font-size: 13px;
+}
+
+.heading{
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+}
+
+.main-price {
+    display: inline;
+    font-size: 30px;
+    margin-right: 20px;
+    color: hsl(158, 36%, 37%);
+}
+
+.parent {
+    display: flex;
+    height: 400px;
+    width: 500px;
+    margin: 95px auto;
+}
+
+.paragraph{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.preview{
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 14px;
+}
+
